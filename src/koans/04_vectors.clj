@@ -16,7 +16,6 @@
 
   "Conjoining to a vector is different than to a list"
   (= [111 222 333] (conj [111 222] 333))
-  (= [333 111 222] (conj '(111 222) 333))
 
   "You can get the first element of a vector like so"
   (= :peanut (first [:peanut :butter :and :jelly]))
